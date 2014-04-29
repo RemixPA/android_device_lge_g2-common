@@ -159,3 +159,8 @@ MAX_EGL_CACHE_KEY_SIZE := 12*1024
 # binaries. Decrease the size if RAM or Flash Storage size is a limitation
 # of the device.
 MAX_EGL_CACHE_SIZE := 2048*1024
+
+# Surfaceflinger optimization for VD surfaces
+TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
+NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
+
